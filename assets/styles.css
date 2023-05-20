@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+header .ilogo{
+    height: 100%;
+}
+.titulo{
+    align-self: center;
+    font-size: 4rem;
+}
+header .iconos{
+    align-self: center;
+}
+nav{
+    background-color: #000000;
+}
+nav ol{
+    display:flex;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+}
+nav ol a{
+    color: white;
+    text-decoration: none;
+}
+main .banner{
+    display:flex;
+    justify-content: flex-end;
+    height: 80vh;
+    background-image: url("./Imagen_1.png");
+    background-size: cover;
+
+}
+main .banner div{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 5vw;
+    gap: 3rem ;
+
+}
+main .banner h3{
+    color: white;
+    font-size: 3rem;
+}
+main .banner p{
+    color: white;
+    font-size: 1.5rem;
+}
+main .banner button{
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    background-color: #0096EB;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .banner2{
+    display:flex;
+    justify-content: flex-start;
+    height: 80vh;
+    padding-left: 5vw;
+    gap: 5rem;
+}
+main .banner2 .img{
+    height: 80%;
+    width: 50vw;
+    display:flex;
+    align-self: center;
+    background-image: url("./Rectangle_2.png");
+    background-size: cover;
+    background-position: center;
+
+}
+main .banner2 div{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 5vw;
+    gap: 3rem ;
+    border-radius: 3%;
+}
+main .banner2 h3{
+    font-size: 3rem;
+}
+main .banner2 p{
+    font-size: 1.5rem;
+}
+main .banner2 button{
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    color: #0096EB;
+    border-color: white;
+    box-shadow: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main .banner3{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 70vh;
+    background-color: #000000;
+    padding-left: 2.5rem;
+}
+main .banner3 p{
+    color: white;
+}
+main .banner3 button{
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    background-color: #0096EB;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main .banner3 .cuadro, .cuadro1, .cuadro2{
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 80vh;
+}
+footer{
+    background-color: #000000;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+}
+footer .cop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 5vh;
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+header .ilogo{
+    height: 100%;
+}
+.titulo{
+    align-self: center;
+    font-size: 4rem;
+}
+header .iconos{
+    align-self: center;
+}
+nav{
+    background-color: #000000;
+}
+nav ol{
+    display:flex;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+}
+nav ol a{
+    color: white;
+    text-decoration: none;
+}
+.si{
+    background-image: url("./LogIn.png");
+}
+footer{
+    background-color: #000000;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+}
+footer .cop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 5vh;
+}
