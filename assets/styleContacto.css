@@ -53,5 +53,32 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-
+}
+.logos{
+    margin-top: 10vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logos p{
+    color: #095DA7;
+}
+.logos div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vh;
+    padding: 2vh;
+}
+.logos div img{
+    width: 3vh;
+    height: 3vh;
+    }
+@media screen and (max-width: 360px) {
+    .container{
+        width: 30vh;
+    }
+    .check p{
+        margin: 0px;
+    }
 }
