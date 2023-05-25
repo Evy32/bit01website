@@ -152,3 +152,74 @@ footer .cop{
     color: white;
     padding: 5vh;
 }
+@media screen and (max-width: 360px) {
+    .titulo{
+        font-size: 30px;
+    }
+    .ilogo{
+        height: auto;
+    }
+    .sing{
+        height: 3vh;
+    }
+    .car{
+        height: 3vh;
+    }
+    main .banner{
+        height: 50vh;
+        padding-top: 8vh;
+        padding-left: 3vh;
+    }
+    main .banner div{
+        width: 80vh;
+        display: flex;
+        align-items: left;
+        justify-content: flex-start;
+    }
+    main .banner h3{
+        font-size: 30px;
+    }
+    main .banner p{
+        font-size: 16px;
+    }
+    main .banner2{
+        gap: 2vh;
+    }
+    main .banner2 .img{
+        width: 40vh;
+    }
+    main .banner2 h3{
+        font-size: 30px;
+    }
+    main .banner2 p{
+        font-size: 16px;
+    }
+    main .banner3{
+        height: 80vh;
+    }
+    main .banner3 p{
+        font-size: 13px;
+    }
+    main .banner3 img{
+        width: 10vh;
+    }
+    main .banner3 .cuadro, .cuadro1, .cuadro2{
+        width:10vh;
+        gap: 1vh;
+    }
+    main .banner3 button{
+        font-size: 10px;
+        padding: 1vh;
+        height: auto;
+    }
+    main .banner3 button img{
+        height: 3vh;
+        width: 3vh;
+    }
+    footer .redes img{
+        width: 80%; 
+    }
+    footer .cop{
+        font-size: 13px;
+    }
+}
