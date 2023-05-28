@@ -1,117 +1,136 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     height: 10vh;
 }
-header .ilogo{
+
+header .ilogo {
     height: 100%;
 }
-.titulo{
+
+.titulo {
     align-self: center;
     font-size: 4rem;
 }
-header .iconos{
+
+header .iconos {
     align-self: center;
 }
-nav{
+
+nav {
     background-color: #000000;
 }
-nav ol{
-    display:flex;
+
+nav ol {
+    display: flex;
     justify-content: space-around;
     height: 5vh;
     align-items: center;
 }
-nav ol a{
+
+nav ol a {
     color: white;
     text-decoration: none;
 }
-main .banner{
-    display:flex;
+
+main .banner {
+    display: flex;
     justify-content: flex-end;
     height: 80vh;
     background-image: url("./Imagen_1.png");
     background-size: cover;
 
 }
-main .banner div{
+
+main .banner div {
     width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding-right: 5vw;
-    gap: 3rem ;
+    gap: 3rem;
 
 }
-main .banner h3{
+
+main .banner h3 {
     color: white;
     font-size: 3rem;
 }
-main .banner p{
+
+main .banner p {
     color: white;
     font-size: 1.5rem;
 }
-main .banner button{
+
+main .banner button {
     height: 3rem;
     padding: 1rem 1.5rem;
     background-color: #0096EB;
     color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main .banner2{
-    display:flex;
+main .banner2 {
+    display: flex;
     justify-content: flex-start;
     height: 80vh;
     padding-left: 5vw;
     gap: 5rem;
 }
-main .banner2 .img{
+
+main .banner2 .img {
     height: 80%;
     width: 50vw;
-    display:flex;
+    display: flex;
     align-self: center;
     background-image: url("./Rectangle_2.png");
     background-size: cover;
     background-position: center;
 
 }
-main .banner2 div{
+
+main .banner2 div {
     width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding-right: 5vw;
-    gap: 3rem ;
+    gap: 3rem;
     border-radius: 3%;
 }
-main .banner2 h3{
+
+main .banner2 h3 {
     font-size: 3rem;
 }
-main .banner2 p{
+
+main .banner2 p {
     font-size: 1.5rem;
 }
-main .banner2 button{
+
+main .banner2 button {
     height: 3rem;
     padding: 1rem 1.5rem;
     background-color: white;
     color: #0096EB;
     border-color: white;
     box-shadow: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-main .banner3{
+
+main .banner3 {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -119,107 +138,137 @@ main .banner3{
     background-color: #000000;
     padding-left: 2.5rem;
 }
-main .banner3 p{
+
+main .banner3 p {
     color: white;
 }
-main .banner3 button{
+
+main .banner3 button {
     height: 3rem;
     padding: 1rem 1.5rem;
     background-color: #0096EB;
     color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-main .banner3 .cuadro, .cuadro1, .cuadro2{
+
+main .banner3 .cuadro,
+.cuadro1,
+.cuadro2 {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
     flex-direction: column;
     align-items: center;
     width: 80vh;
 }
-footer{
+
+footer {
     background-color: #000000;
 }
-footer .redes{
+
+footer .redes {
     display: flex;
     justify-content: center;
 }
-footer .cop{
+
+footer .cop {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     padding: 5vh;
 }
+
 @media screen and (max-width: 360px) {
-    .titulo{
+    .titulo {
         font-size: 30px;
     }
-    .ilogo{
+
+    .ilogo {
         height: auto;
     }
-    .sing{
+
+    .sing {
         height: 3vh;
     }
-    .car{
+
+    .car {
         height: 3vh;
     }
-    main .banner{
+
+    main .banner {
         height: 50vh;
         padding-top: 8vh;
         padding-left: 3vh;
     }
-    main .banner div{
+
+    main .banner div {
         width: 80vh;
         display: flex;
         align-items: left;
         justify-content: flex-start;
     }
-    main .banner h3{
+
+    main .banner h3 {
         font-size: 30px;
     }
-    main .banner p{
+
+    main .banner p {
         font-size: 16px;
     }
-    main .banner2{
+
+    main .banner2 {
         gap: 2vh;
     }
-    main .banner2 .img{
+
+    main .banner2 .img {
         width: 40vh;
     }
-    main .banner2 h3{
+
+    main .banner2 h3 {
         font-size: 30px;
     }
-    main .banner2 p{
+
+    main .banner2 p {
         font-size: 16px;
     }
-    main .banner3{
+
+    main .banner3 {
         height: 80vh;
     }
-    main .banner3 p{
+
+    main .banner3 p {
         font-size: 13px;
     }
-    main .banner3 img{
+
+    main .banner3 img {
         width: 10vh;
     }
-    main .banner3 .cuadro, .cuadro1, .cuadro2{
-        width:10vh;
+
+    main .banner3 .cuadro,
+    .cuadro1,
+    .cuadro2 {
+        width: 10vh;
         gap: 1vh;
     }
-    main .banner3 button{
+
+    main .banner3 button {
         font-size: 10px;
         padding: 1vh;
         height: auto;
     }
-    main .banner3 button img{
+
+    main .banner3 button img {
         height: 3vh;
         width: 3vh;
     }
-    footer .redes img{
-        width: 80%; 
+
+    footer .redes img {
+        width: 80%;
     }
-    footer .cop{
+
+    footer .cop {
         font-size: 13px;
     }
 }
